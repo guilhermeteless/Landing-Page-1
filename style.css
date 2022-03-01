@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #A0B2ED;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.titulo {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    color: white;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: #000000;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito {
+    text-align: center;
+    padding: auto;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 90px;
+    color: #5465A0;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #768AC5;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #000000
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #5465A0;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+}
+
+.rodape {
+    font-family: 'Open Sans', sans-serif;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    text-align: center; 
+    color: white;
+}
